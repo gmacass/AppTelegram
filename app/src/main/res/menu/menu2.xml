@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/ic_grupo"
+            android:title="Nuevo grupo"/>
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/ic_nchat"
+            android:title="Nuevo chat secreto"/>
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/ic_ncanal"
+            android:title="Nuevo canal"/>
+        <item
+            android:id="@+id/menu_seccion_4"
+            android:icon="@drawable/ic_contacto"
+            android:title="Contactos"/>
+        <item
+            android:id="@+id/menu_seccion_5"
+            android:icon="@drawable/ic_llamadas"
+            android:title="Llamadas"/>
+        <item
+            android:id="@+id/menu_seccion_6"
+            android:icon="@drawable/ic_mguardados"
+            android:title="Mensajes guardados"/>
+        <item
+            android:id="@+id/menu_seccion_7"
+            android:icon="@drawable/ic_ajustes"
+            android:title="Ajustes"/>
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/ic_iamigos"
+                android:title="Invitar amigos"/>
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/ic_pfrecuentes"
+                android:title="Preguntas frecuentes"/>
+        </menu>
+    </item>
+</menu>
+
